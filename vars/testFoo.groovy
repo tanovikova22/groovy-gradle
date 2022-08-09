@@ -1,5 +1,6 @@
 import java.time.LocalDateTime
 
-def call() {
-    "Hello ${LocalDateTime.now()}"
+def call(String name) {
+
+    "Hello ${name}, today is ${LocalDateTime.now()}"
 }
